@@ -13,44 +13,71 @@
         <section class="header">
             <div>
                 <h2>Moringa School <br> Survey Form</h2>
-                <h4><em>We appreciate you taking your precius time to help <br> us revamp our platform</em></h4>
+                <h4><em>We appreciate you taking your precious time to help <br> us make our platform serve you better</em></h4>
             </div>
         </section>
-
+        <fieldset>
         <section class="p-details">
             <div><b>Personal details</b></div><br>
-          <div><label id="name-label" for="name">Name:</label>
+          <div><label id="name-label" for="name">Name:</label><br>
             <input type="text" required id="name" name="user_name" placeholder="Enter full name"> 
           </div><br>
           <div>
-            <label id="email-label" for="Email">Email:</label>
+            <label id="email-label" for="Email">Email:</label><br>
             <input type="email" required id="email" name="user_email" placeholder="Enter email here">  
          </div><br>
           <div>
-            <label id="number-label" for="phone">Preferred Mobile Number:</label>
+            <label id="number-label" for="phone">Preferred Mobile Number:</label><br>
             <input type="number" id="number" name="user_name" placeholder="Enter 10 digit number" min="1" max="9"> 
          </div><br>
          <div>
-            <label for="age-label">Age(Optional):</label>
+            <label for="age-label">Age(Optional):</label><br>
             <input type="Address" id="address" name="Address" placeholder="Enter your age here">  
          </div><br>
           <div>
           <div>
-            <label id="iq-label" for="iq">County:</label>
+            <label id="iq-label" for="iq">County:</label><br>
             <input type="number" id="county" name="county" placeholder="Enter county name here">  
          </div><br>
-         <div><label for="date-label">Date of Birth:</label>
-         <input type="date" name="dob">
+         <div><label for="date-label">Date of Birth:</label><br>
+         <input type="date" name="dob" >
          </div><br>
-         <fieldset>
-            <label for="Gender">Check All That Apply</label>
-         </fieldset>
+         <div>
+            <label for="Gender">Gender</label>
+            <p>
+              <input type="radio" name="gender" value="male" checked> Male<br>
+              <input type="radio" name="gender" value="female"> Female<br>
+              <input type="radio" name="gender" value="other"> Other
+            </p>
+          </div>
          
 
       
         </section>
+        </fieldset><br>
 
+        <fieldset>
         <section class="role">
+                <div>
+                  <label for="classification">Which option best describes your classification?</label>
+                  <select id="dropdown">
+              <option value="student">Student</option>
+              <option value="full">Full Time Learner</option>
+              <option value="part">Part Time Learner</option>
+              <option value="prefer">Prefer not to say</option>
+              </select><br><br>
+            
+                  <label for="features">What is your favorite feature of Moringa School?</label>
+                  <select id="dropdown2">
+              <option value="projects">Projects</option>
+              <option value="LMS">LMS Content</option>
+              <option value="games">Games</option>  
+              <option value="community">Community</option>
+              <option value="None">None</option>
+              </select>
+                </div>
+              </fieldset>
+            
            
         </section>
 
