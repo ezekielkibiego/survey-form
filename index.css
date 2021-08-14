@@ -2,21 +2,27 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(180, 170, 170);
+    font-family: 'Lato', global_font_string;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #595d64;
+}
+}
+    
 }
 * {
     box-sizing: border-box;
 }
 .main {
-    
+    border: 2px solid #595d64;;
     margin-left: 300px;
     margin-right: 300px;
     margin-top: -5px;
     height: 1270px;
-    background-color: rgb(21, 56, 26);
+   background-color: white;
     padding-left: 100px;
     padding-right: 100px;
-    color: #fd8c25 ;
+    color: #595d64;
     font-size: large;
 }
 h2,h4{
@@ -24,14 +30,17 @@ h2,h4{
 }
 h2{
     padding-top: 10px;
+    color: #ffa500;
 }
 #submit {
 
     width: 700px;
     margin-left: -101px;
-    background-color: rgb(21, 56, 26);
-    color: #fd8c25;
+    background-color: white;
+    color: #595d64;
     border: 2px solid white;
     font-size: large;
     text-align: center;
+    font-family: 'Lato', global_font_string;
+}
 }
