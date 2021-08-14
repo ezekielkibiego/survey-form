@@ -12,12 +12,18 @@ body{
     margin-left: 300px;
     margin-right: 300px;
     margin-top: -5px;
-    height: 1260px;
+    height: 1270px;
     background-color: rgb(21, 56, 26);
     padding-left: 100px;
     padding-right: 100px;
     color: #fd8c25 ;
     font-size: large;
+}
+h2,h4{
+    text-align: center;
+}
+h2{
+    padding-top: 10px;
 }
 #submit {
 
@@ -27,6 +33,5 @@ body{
     color: #fd8c25;
     border: 2px solid white;
     font-size: large;
-    
     text-align: center;
 }
