@@ -7,9 +7,6 @@ body{
     font-style: normal;
     background-color: #595d64;
 }
-}
-    
-}
 * {
     box-sizing: border-box;
 }
@@ -43,4 +40,4 @@ h2{
     text-align: center;
     font-family: 'Lato', global_font_string;
 }
-}
+
