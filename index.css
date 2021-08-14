@@ -19,3 +19,14 @@ body{
     color: #fd8c25 ;
     font-size: large;
 }
+#submit {
+
+    width: 700px;
+    margin-left: -101px;
+    background-color: rgb(21, 56, 26);
+    color: #fd8c25;
+    border: 2px solid white;
+    font-size: large;
+    
+    text-align: center;
+}
