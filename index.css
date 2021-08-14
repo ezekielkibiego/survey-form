@@ -2,10 +2,18 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #fff;
+}
+* {
+    box-sizing: border-box;
 }
 .main {
-    border: 2px solid blue;
+    
     margin-left: 300px;
     margin-right: 300px;
-    height: 1200px;
+    height: 1150px;
+    background-color: rgb(21, 56, 26);
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fd8c25 ;
 }
